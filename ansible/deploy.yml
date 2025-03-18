@@ -1,0 +1,8 @@
+- name: Deploy DevOps WebApp
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Print message
+      debug:
+        msg: "Ansible is running on localhost!"
+
